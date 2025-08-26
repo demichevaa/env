@@ -1,0 +1,9 @@
+/* Hide native tab bar for Tree Style Tab harmony */
+#TabsToolbar {
+  visibility: collapse !important;
+}
+
+/* Remove any leftover spacing/padding line */
+#TabsToolbar, #nav-bar {
+  border-top: none !important;
+}
